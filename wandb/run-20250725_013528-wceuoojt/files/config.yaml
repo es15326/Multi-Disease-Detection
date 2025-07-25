@@ -1,0 +1,138 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.16.4
+    framework: huggingface
+    huggingface_version: 4.40.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1753425328.0
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 103
+      2:
+      - 1
+      - 5
+      - 9
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 103
+      3:
+      - 7
+      - 13
+      - 23
+      4: 3.10.13
+      5: 0.16.4
+      6: 4.40.0
+      8:
+      - 5
+      13: linux-x86_64
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: train_loss
+      5: 1
+      6:
+      - 1
+    - 1: learning_rate
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: val_accuracy
+      5: 1
+      6:
+      - 1
+    - 1: val_precision
+      5: 1
+      6:
+      - 1
+    - 1: val_recall
+      5: 1
+      6:
+      - 1
+    - 1: val_f1
+      5: 1
+      6:
+      - 1
+    - 1: val_auc_class_0
+      5: 1
+      6:
+      - 1
+    - 1: val_mAP
+      5: 1
+      6:
+      - 1
+    - 1: val_mean_auc
+      5: 1
+      6:
+      - 1
+    - 1: val_s_score
+      5: 1
+      6:
+      - 1
+n_classes:
+  desc: null
+  value: 29
+label_weights:
+  desc: null
+  value:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+freeze_backbone:
+  desc: null
+  value: false
+lr:
+  desc: null
+  value: 7.0e-06
+warm_restarts:
+  desc: null
+  value: 200
+model_name:
+  desc: null
+  value: dino_vits8

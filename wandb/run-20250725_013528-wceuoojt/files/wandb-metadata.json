@@ -1,0 +1,243 @@
+{
+    "os": "Linux-4.18.0-553.58.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "python": "3.10.13",
+    "heartbeatAt": "2025-07-25T06:35:29.348212",
+    "startedAt": "2025-07-25T06:35:28.270887",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_img_path",
+        "/usr/mvl2/esdft/ISBI_elham",
+        "--val_img_path",
+        "/usr/mvl2/esdft/ISBI_elham",
+        "--train_csv",
+        "riadd_new_train.csv",
+        "--val_csv",
+        "riadd_new_eval.csv",
+        "--resolution",
+        "224",
+        "--batch_size",
+        "8",
+        "--boosting_experts",
+        "1",
+        "--boosting_resume_from",
+        "0",
+        "--max_epochs",
+        "200",
+        "--arch",
+        "vits8",
+        "--tag",
+        "224-init-update-itdfhnorm"
+    ],
+    "state": "running",
+    "program": "/usr/mvl2/esdft/transformer_based_retinal_classification/retinal-disease-classification_swin_github/Multi-Disease-Detection/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/es15326/Multi-Disease-Detection.git",
+        "commit": "67cc3ed84665d40b60887da7f2f81ca3dfe4f3c6"
+    },
+    "email": null,
+    "root": "/usr/mvl2/esdft/transformer_based_retinal_classification/retinal-disease-classification_swin_github/Multi-Disease-Detection",
+    "host": "meru2.rnet.missouri.edu",
+    "username": "esdft",
+    "executable": "/usr/mvl2/esdft/miniconda3/envs/python3.10/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3009.7140937500003,
+        "min": 3200.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2771.559,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2771.769,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2627.618,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2600.155,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2627.637,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2772.879,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2772.929,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2773.004,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2693.975,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2627.262,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2627.254,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2627.272,
+            "min": 3200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2627.172,
+            "min": 3200.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 888.9574241638184,
+            "used": 223.48855590820312
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 51539607552
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 51539607552
+        }
+    ],
+    "memory": {
+        "total": 503.7600212097168
+    }
+}
