@@ -1,9 +1,4 @@
-
 # 🧐 Retinal Disease Classification with Sequential Expert Training
-
-<p align="center">
-  <img src="assets/expert_chain_diagram.png" width="75%" alt="Expert Chain Diagram">
-</p>
 
 **Multi-label classification of retinal diseases using a boosting-inspired ensemble of expert models.**
 
@@ -190,23 +185,3 @@ python train.py \
 
 Have questions, ideas, or feedback?  
 📬 Reach out: [email@example.com](mailto:email@example.com)
-
-
----
-
-## 📊 Dataset: RFMiD
-
-This project uses the [RFMiD dataset](https://www.kaggle.com/datasets/rishitdagli/retinal-fundus-image-for-multi-disease-detection), a publicly available dataset containing 3,200 color fundus images labeled with 28 disease classes. It supports multi-label classification and represents a diverse range of retinal pathologies.
-
----
-
-## 🏆 Performance
-
-| Model | mAP | F1 (macro) | AUC | Comments |
-|-------|-----|------------|-----|----------|
-| Expert Chain (Ours) | **0.742** | **0.695** | **0.910** | ViT-B, 10 experts |
-| Single ViT (baseline) | 0.663 | 0.608 | 0.871 | Same architecture, no boosting |
-| ResNeXt (baseline) | 0.598 | 0.552 | 0.842 | ResNeXt-50 with static weights |
-
-*Note: Performance is measured on the official RFMiD validation set using multi-label metrics.*
-
