@@ -2,7 +2,7 @@
 # 🧐 Retinal Disease Classification with Sequential Expert Training
 
 <p align="center">
-  <img src="assets/expert_chain_diagram.png" width="75%" alt="Expert Chain Diagram">
+  <img src="banner.png" width="75%" alt="Expert Chain Diagram">
 </p>
 
 **Multi-label classification of retinal diseases using a boosting-inspired ensemble of expert models.**
