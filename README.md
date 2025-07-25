@@ -2,7 +2,7 @@
 # 🧐 Retinal Disease Classification with Sequential Expert Training
 
 <p align="center">
-  <img src="assets/banner.png" width="75%" alt="Expert Chain Diagram">
+  <img src="assets/retinal_banner.png" width="75%" alt="Expert Chain Diagram">
 </p>
 
 **Multi-label classification of retinal diseases using a boosting-inspired ensemble of expert models.**
@@ -173,23 +173,6 @@ python train.py \
 
 ---
 
-## 💡 Citation
-
-```bibtex
-@misc{retinalboost2025,
-  title={Retinal Disease Classification with Sequential Expert Training},
-  author={Elham Soltani Kazemi},
-  year={2025},
-  url={https://github.com/es15326/Multi-Disease-Detection.git}
-}
-```
-
----
-
-## 🤝 Contact
-
-Have questions, ideas, or feedback?  
-📬 Reach out: [email@example.com](mailto:email@example.com)
 
 
 ---
@@ -209,4 +192,24 @@ This project uses the [RFMiD dataset](https://www.kaggle.com/datasets/rishitdagl
 | ResNeXt (baseline) | 0.598 | 0.552 | 0.842 | ResNeXt-50 with static weights |
 
 *Note: Performance is measured on the official RFMiD validation set using multi-label metrics.*
+
+---
+
+## 💡 Citation
+
+```bibtex
+@misc{retinalboost2025,
+  title={Retinal Disease Classification with Sequential Expert Training},
+  author={Elham Soltani Kazemi},
+  year={2025},
+  url={https://github.com/es15326/Multi-Disease-Detection.git}
+}
+```
+
+---
+
+## 🤝 Contact
+
+Have questions, ideas, or feedback?  
+📬 Reach out: [email@example.com](mailto:email@example.com)
 
