@@ -61,8 +61,8 @@ Each expert is trained to focus on what the previous one missed by dynamically a
 ## 💪 Installation
 
 ```bash
-git clone https://github.com/your-username/retinal-boosting.git
-cd retinal-boosting
+git clone https://github.com/es15326/Multi-Disease-Detection.git
+cd Multi-Disease-Detection
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -173,9 +173,9 @@ python train.py \
 ```bibtex
 @misc{retinalboost2025,
   title={Retinal Disease Classification with Sequential Expert Training},
-  author={Your Name},
+  author={Elham Soltani Kazemi},
   year={2025},
-  url={https://github.com/your-username/retinal-boosting}
+  url={https://github.com/es15326/Multi-Disease-Detection.git}
 }
 ```
 
