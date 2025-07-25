@@ -15,7 +15,8 @@
 # MODELS_DIR=/cluster/VAST/civalab/results/riadd/imad/final-resnext-512-noinit-update-itdfhnorm/checkpoints
 
 #ARCH=resnext
-ARCH=vitb8
+#ARCH=vitb8
+ARCH=vitb16
 
 # MODELS_DIR=/usr/mvl2/itdfh/dev/retinal-disease-classification/weights-network-ablation-512-ablation-architectures/checkpoints/$ARCH
 # MODELS_DIR=/usr/mvl2/itdfh/dev/retinal-disease-classification/weights-resnext512-init-update-itdfhnorm/checkpoints/best
@@ -27,8 +28,8 @@ ARCH=vitb8
 # MODELS_DIR=/usr/mvl2/esdft/transformer_based_retinal_classification/retinal-disease-classification_swin/best_ckpt
 
 # MODELS_DIR=/usr/mvl2/esdft/transformer_based_retinal_classification/retinal-disease-classification_swin/weights-vitb8224-init-update-itdfhnorm/checkpoints/best
-MODELS_DIR=/usr/mvl2/esdft/transformer_based_retinal_classification/retinal-disease-classification_swin/weights-vitb8224-init-update-itdfhnorm/checkpoints/best
-
+# MODELS_DIR=/usr/mvl2/esdft/transformer_based_retinal_classification/retinal-disease-classification_swin/weights-vitb8224-init-update-itdfhnorm/checkpoints/best
+MODELS_DIR=/usr/mvl2/esdft/transformer_based_retinal_classification/retinal-disease-classification_swin_github/Multi-Disease-Detection/models/checkpoints/
 
 BASEDIR=/usr/mvl2/esdft/ISBI_elham
 
