@@ -208,8 +208,4 @@ This project uses the [RFMiD dataset](https://www.kaggle.com/datasets/rishitdagl
 
 ---
 
-## 🤝 Contact
-
-Have questions, ideas, or feedback?  
-📬 Reach out: [email@example.com](mailto:email@example.com)
 
